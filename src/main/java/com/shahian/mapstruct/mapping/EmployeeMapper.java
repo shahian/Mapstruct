@@ -19,7 +19,6 @@ public interface EmployeeMapper {
     @Mapping(target = "addreess",ignore = true)
     EmployeeDTO toEmployeeDTO(Employee employee);
 
-
     List<EmployeeDTO> toCEmployeeDTOs(List<Employee>employies);
 
     Employee toEmployee(EmployeeDTO employeeDTO);
