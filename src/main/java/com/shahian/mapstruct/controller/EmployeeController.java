@@ -16,6 +16,7 @@ public class EmployeeController extends BaseController{
         BaseDTO baseDTO = employeeService.getAllemployies();
         return new ResponseEntity<>(baseDTO, HttpStatus.OK);
     }
+
     @GetMapping("/get/{id}")
     public ResponseEntity<?>getCompanyById(@PathVariable("id")Long id){
         BaseDTO baseDTO=employeeService.getemployeeById(id);

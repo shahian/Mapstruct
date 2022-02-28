@@ -10,4 +10,5 @@ public class MapstructApplication {
         SpringApplication.run(MapstructApplication.class, args);
     }
 
+
 }
